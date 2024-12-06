@@ -13,13 +13,12 @@ namespace SuperHero.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController()
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            //ILogger<WeatherForecastController> logger
-            //_logger = logger;
+            _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
