@@ -1,0 +1,57 @@
+name: SonarQube Analysis
+
+on:
+  push:
+    branches:
+      develop
+
+jobs:
+  sonarqube:
+    runs-on: ubuntu-latest # Or windows-latest if needed
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Setup .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.0' # Specify your project's .NET version
+
+      # Step 3: Cache dotnet tools
+      - name: Cache Global Tools
+        uses: actions/cache@v3
+        with:
+          path: ~/.dotnet/tools
+          key: ${{ runner.os }}-dotnet-tools
+
+      # Step 4: Install SonarScanner if not present
+      - name: Install SonarScanner
+        run: |
+          if ! command -v dotnet-sonarscanner &> /dev/null; then
+            dotnet tool install --global dotnet-sonarscanner
+          fi
+
+      # Step 5: Cache NuGet dependencies
+      - name: Cache NuGet Packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      # Step 6: Run SonarQube Analysis
+      - name: Run SonarQube Analysis
+        env:
+          SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
+        run: |
+          dotnet sonarscanner begin \
+            /k:"projectName" \
+            /d:sonar.host.url="http://your-sonarqube-server-url" \
+            /d:sonar.login="${{ secrets.SONARQUBE_TOKEN }}"
+          dotnet build
+          dotnet sonarscanner end \
+            /d:sonar.login="${{ secrets.SONARQUBE_TOKEN }}"
