@@ -1,0 +1,15 @@
+z
+oC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.MvcApplicationPartsAssemblyInfo.csutf-8g
+\C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.AssemblyInfo.csutf-8|
+qC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8i
+^C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.GlobalUsings.g.csutf-8M
+DC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\WeatherForecast.csutf-8G
+>C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\SuperHero.csutf-8E
+<C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Program.csutf-8c
+XC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\DataContextModelSnapshot.csutf-8p
+eC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\20240630142633_CreateInitial.Designer.csutf-8e
+\C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\20240630142633_CreateInitial.csutf-8J
+AC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\HeroResponse.csutf-8N
+EC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Data\DataContext.csutf-8c
+ZC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Controllers\WeatherForecastController.csutf-8]
+TC:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Controllers\SuperHeroController.csutf-8

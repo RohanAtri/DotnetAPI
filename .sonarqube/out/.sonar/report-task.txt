@@ -1,0 +1,6 @@
+projectKey=SuperHero
+serverUrl=http://localhost:9090
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9090/dashboard?id=SuperHero
+ceTaskId=107a2608-f156-4ff0-99c4-4759fe8dad56
+ceTaskUrl=http://localhost:9090/api/ce/task?id=107a2608-f156-4ff0-99c4-4759fe8dad56

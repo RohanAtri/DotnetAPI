@@ -1,0 +1,17 @@
+﻿C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Controllers\SuperHeroController.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Controllers\WeatherForecastController.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Data\DataContext.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\HeroResponse.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\20240630142633_CreateInitial.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\20240630142633_CreateInitial.Designer.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Migrations\DataContextModelSnapshot.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Program.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\SuperHero.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\WeatherForecast.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.GlobalUsings.g.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\obj\Debug\net6.0\SuperHero.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\appsettings.Development.json
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\appsettings.json
+C:\Users\ADMIN\Desktop\Dotnet\SuperHero\SuperHero\Properties\launchSettings.json
