@@ -50,7 +50,7 @@ jobs:
         run: |
           dotnet sonarscanner begin \
             /k:"projectName" \
-            /d:sonar.host.url="http://your-sonarqube-server-url" \
+            /d:sonar.host.url="http://localhost:9090" \
             /d:sonar.login="${{ secrets.SONARQUBE_TOKEN }}"
           dotnet build
           dotnet sonarscanner end \
